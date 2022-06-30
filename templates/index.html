@@ -1,0 +1,42 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="../static/style.css">
+  <script src="../static/client.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script></head>
+<body class="container">
+  <div class="image-p">
+    <div class="image">
+      <img src="../static/img/bitcoin.jpg" alt="bitcoin"/>
+    </div>
+    <div class="text">
+      <span class="description">
+       A cryptocurrency price predictor
+      </span>
+    </div>
+  </div>
+  <div class="row b ">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Open" aria-label="First name" id="Open">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Low" aria-label="Last name" id="Low">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Volume" aria-label="Last name" id="Volume">
+      </div>
+  </div>
+  <div class ="row pred" >
+    <div class="pred-items">
+      <button class ="btn btn-success pred-btn" onclick={onSendButton()}>Predict the cloese prise 💰</button>
+      <span class =" pred-text ">
+        the close pricce is 
+        <span class="price" id="price">456,847</span><span class="price">$</span>
+      </span>
+    </div>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+.image, .text{
+   text-align: center;
+}
+.image-p {
+    position: relative;
+    top: 20px;
+}
+
+.text{
+  margin: 20px;
+}
+
+.image{
+
+}
+
+.b{
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    margin: 0px;
+    padding: 50px;
+    text-align: center;
+
+
+}
+
+.pred{
+position: relative;
+   }
+   .pred-items{
+    text-align: center;
+    padding: 20px 0px;
+   }
+   .pred-text, .pred-btn{
+    text-align: center;
+   }
+
+.description{
+    color : green;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size : 30px
+}
+
+.btn{
+    width : auto
+}
+
+.price{
+    color : orange;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
